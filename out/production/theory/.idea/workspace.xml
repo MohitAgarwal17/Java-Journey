@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beadd28d-3530-4934-af16-814ccea19f3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recuesion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/theory/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/theory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/theory/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/theory/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/theory/Sum.class" afterDir="false" />
+    <list default="true" id="de1bb0e2-0ecd-45f5-8814-de77e022eb8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/countInversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/countPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/Merge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/mergeVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/Merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/mergeVector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/recursion1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/recursion2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/theory/theory.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,44 +45,43 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2xwdcEPLLWRl8yXJw4pSiLftcc3" />
+  <component name="ProjectId" id="2y7jErwn99cHFFYTF6MeeqZtkxz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Merge.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.Sum.executor": "Run",
-    "Application.mergeVector.executor": "Run",
-    "Application.print.executor": "Run",
-    "Application.recursion1.executor": "Run",
-    "Application.recursion2.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Merge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countInversions.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Merge" />
+      <module name="theory" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Merge" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="beadd28d-3530-4934-af16-814ccea19f3f" name="Changes" comment="" />
-      <created>1748853147853</created>
+      <changelist id="de1bb0e2-0ecd-45f5-8814-de77e022eb8d" name="Changes" comment="" />
+      <created>1749192397098</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748853147853</updated>
+      <updated>1749192397098</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.StackOverflowError" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

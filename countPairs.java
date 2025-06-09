@@ -1,26 +1,37 @@
-import java.util.*;
-class Merge
-{
-    public static void mergeSort(int[] arr,int[]temp, int low, int high)
+import java.util.Scanner;
+
+public class countPairs {
+    public static int mergeSort(int[] arr, int low, int high)
     {
-        if (low <= high)
-        {
-            return;
-        }
-        int mid = (low + high)/ 2;
-        mergeSort(arr,temp, low, mid);
-        mergeSort(arr,temp, mid + 1, high);
-        if (arr[mid] >= arr[mid + 1])
-        {
-            return;
-        }
-        merge(arr,temp, low, mid, high);
+        int c=0;
+        if(low>=high) return c;
+        int mid=(low+high)/2;
+        c=c+ mergeSort(arr,low,mid);
+        c=c+ mergeSort(arr,mid+1,high);
+        c=c+ countPairs1(arr,low,mid,high);
+        merge(arr,low,mid,high);
+        return c;
     }
-    public static void merge(int[] arr,int[] temp, int low, int mid, int high)
+    public static int countPairs1(int[] arr,int low,int mid,int high)
+    {
+        int right=mid+1;
+        int c=0;
+        for(int i=low;i<=mid;i++)
+        {
+            while(right <= high && arr[i] > 2L*arr[right])
+            {
+                right++;
+            }
+            c=c+(right-(mid+1));
+        }
+        return c;
+    }
+    public static void merge(int[] arr,int low,int mid,int high)
     {
         int left=low;
         int right=mid+1;
-        int i=low;
+        int[] temp =new int[high-low+1];
+        int i=0;
         while(left<=mid && right<=high)
         {
             if(arr[left]<=arr[right])
@@ -44,7 +55,7 @@ class Merge
             temp[i++]=arr[right];
             right++;
         }
-        System.arraycopy(temp,low, arr, low, high-low+1);
+        System.arraycopy(temp,0, arr, low, high-low+1);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -61,14 +72,12 @@ class Merge
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        int[] temp = new int[arr.length];
-        mergeSort(arr, temp, 0, arr.length - 1);
+        int c= mergeSort(arr,0, arr.length-1);
+        System.out.println("The number of inversions are: " + c);
         System.out.println("After sorting array: ");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
-
 }
-

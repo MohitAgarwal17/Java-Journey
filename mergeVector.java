@@ -9,10 +9,10 @@ class mergeVector
             arr.add(num);
         }
         mergeSort(arr, 0, array.length-1);
-        for(int i=0; i<array.length;i++)
+        /* for(int i=0; i<array.length;i++)//used to convert vector to integer array to return array as int
         {
             array[i]=arr.get(i);
-        }
+        } */
     }
      private static void mergeSort(Vector<Integer> arr, int low, int high) 
      {
